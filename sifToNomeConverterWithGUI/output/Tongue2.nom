@@ -1,0 +1,92 @@
+####  CONVERTED FROME A SIF  FILE  ####
+
+point v0 (1.499850 1.000000 1.038186) endpoint
+point v1 (2.886812 1.000000 2.116575) endpoint
+point v2 (4.325899 1.000000 3.021054) endpoint
+point v3 (5.889616 1.000000 3.487664) endpoint
+point v4 (5.977444 0.500000 3.097425) endpoint
+point v5 (5.999401 0.000000 2.999866) endpoint
+point v6 (5.977444 -0.500000 3.097425) endpoint
+point v7 (5.889616 -1.000000 3.487664) endpoint
+point v8 (4.325899 -1.000000 3.021054) endpoint
+point v9 (4.464820 -0.500000 2.645952) endpoint
+point v10 (2.886812 -1.000000 2.116575) endpoint
+point v11 (2.977122 -0.500000 1.938194) endpoint
+point v12 (1.499850 -1.000000 1.038186) endpoint
+point v13 (1.499850 -0.500000 1.038186) endpoint
+point v14 (0.000000 -1.000000 -0.000000) endpoint
+point v15 (0.000000 -0.500000 -0.000000) endpoint
+point v16 (1.499850 0.000000 1.038186) endpoint
+point v17 (2.999700 0.000000 1.893598) endpoint
+point v18 (4.499550 0.000000 2.552177) endpoint
+point v19 (4.464820 0.500000 2.645952) endpoint
+point v20 (2.977122 0.500000 1.938194) endpoint
+point v21 (1.499850 0.500000 1.038186) endpoint
+point v22 (0.000000 0.000000 0.000000) endpoint
+point v23 (-0.000000 0.500000 0.000000) endpoint
+point v24 (-0.000000 1.000000 0.000000) endpoint
+
+mesh SIFmesh0
+face f0 (v24 v0 v21 v23) endface
+face f1 (v1 v0 v20 v21) endface
+face f2 (v1 v19 v2 v20) endface
+face f3 (v19 v3 v2 v4) endface
+face f4 (v19 v18 v5 v4) endface
+face f5 (v9 v18 v5 v6) endface
+face f6 (v9 v8 v7 v6) endface
+face f7 (v9 v8 v11 v10) endface
+face f8 (v11 v10 v13 v12) endface
+face f9 (v13 v12 v15 v14) endface
+face f10 (v13 v15 v17 v16) endface
+face f11 (v11 v18 v13 v17) endface
+face f12 (v19 v18 v20 v17) endface
+face f13 (v20 v21 v17 v16) endface
+face f14 (v15 v21 v22 v16) endface
+endmesh
+
+point v25 (1.499850 4.000000 1.038186) endpoint
+point v26 (2.886812 4.000000 2.116575) endpoint
+point v27 (4.325899 4.000000 3.021054) endpoint
+point v28 (5.889616 4.000000 3.487664) endpoint
+point v29 (5.977444 3.500000 3.097425) endpoint
+point v30 (5.999401 3.000000 2.999866) endpoint
+point v31 (5.977444 2.500000 3.097425) endpoint
+point v32 (5.889616 2.000000 3.487664) endpoint
+point v33 (4.325899 2.000000 3.021054) endpoint
+point v34 (4.464820 2.500000 2.645952) endpoint
+point v35 (2.886812 2.000000 2.116575) endpoint
+point v36 (2.977122 2.500000 1.938194) endpoint
+point v37 (1.499850 2.000000 1.038186) endpoint
+point v38 (1.499850 2.500000 1.038186) endpoint
+point v39 (0.000000 2.000000 -0.000000) endpoint
+point v40 (0.000000 2.500000 -0.000000) endpoint
+point v41 (1.499850 3.000000 1.038186) endpoint
+point v42 (2.999700 3.000000 1.893598) endpoint
+point v43 (4.499550 3.000000 2.552177) endpoint
+point v44 (4.464820 3.500000 2.645952) endpoint
+point v45 (2.977122 3.500000 1.938194) endpoint
+point v46 (1.499850 3.500000 1.038186) endpoint
+point v47 (0.000000 3.000000 0.000000) endpoint
+point v48 (-0.000000 3.500000 0.000000) endpoint
+point v49 (-0.000000 4.000000 0.000000) endpoint
+
+mesh SIFmesh1
+face f0 (v49 v25 v46 v48) endface
+face f1 (v26 v25 v45 v46) endface
+face f2 (v26 v44 v27 v45) endface
+face f3 (v44 v28 v27 v29) endface
+face f4 (v44 v43 v30 v29) endface
+face f5 (v34 v43 v30 v31) endface
+face f6 (v34 v33 v32 v31) endface
+face f7 (v34 v33 v36 v35) endface
+face f8 (v36 v35 v38 v37) endface
+face f9 (v38 v37 v40 v39) endface
+face f10 (v38 v40 v42 v41) endface
+face f11 (v36 v43 v38 v42) endface
+face f12 (v44 v43 v45 v42) endface
+face f13 (v45 v46 v42 v41) endface
+face f14 (v40 v46 v47 v41) endface
+endmesh
+
+instance  mesh0 SIFmesh0 scale (1 1 1)  endinstance
+instance  mesh1 SIFmesh1 scale (1 1 1)  endinstance

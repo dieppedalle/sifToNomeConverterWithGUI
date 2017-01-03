@@ -1,0 +1,97 @@
+####  CONVERTED FROME A SIF  FILE  ####
+
+point v0 (0.067910 0.091756 0.000986) endpoint
+point v1 (0.085636 0.085636 0.000000) endpoint
+point v2 (0.091771 0.067908 -0.001124) endpoint
+point v3 (0.090698 0.036521 -0.002078) endpoint
+point v4 (0.084510 0.002334 -0.002978) endpoint
+point v5 (0.071622 -0.023135 -0.002918) endpoint
+point v6 (0.053594 -0.031673 -0.002018) endpoint
+point v7 (0.019239 -0.035021 -0.012702) endpoint
+point v8 (-0.021547 -0.028267 -0.035074) endpoint
+point v9 (-0.036384 -0.010866 -0.046561) endpoint
+point v10 (-0.032725 0.013417 -0.048370) endpoint
+point v11 (-0.011752 0.026431 -0.041440) endpoint
+point v12 (0.031470 0.032433 -0.025551) endpoint
+point v13 (0.064259 0.039391 -0.016656) endpoint
+point v14 (0.081091 0.052760 -0.010472) endpoint
+point v15 (0.083863 0.067241 -0.004804) endpoint
+point v16 (0.078810 0.078916 -0.000103) endpoint
+point v17 (0.067128 0.083876 0.004640) endpoint
+point v18 (0.052651 0.081023 0.010308) endpoint
+point v19 (0.039323 0.064062 0.016280) endpoint
+point v20 (0.032506 0.031210 0.025052) endpoint
+point v21 (0.026585 -0.012035 0.040986) endpoint
+point v22 (0.013445 -0.032858 0.048249) endpoint
+point v23 (-0.010903 -0.036545 0.046444) endpoint
+point v24 (-0.028515 -0.021793 0.034772) endpoint
+point v25 (-0.035335 0.019087 0.012332) endpoint
+point v26 (-0.031835 0.053578 0.001734) endpoint
+point v27 (-0.023165 0.071646 0.002718) endpoint
+point v28 (0.002330 0.084507 0.002817) endpoint
+point v29 (0.036524 0.090680 0.001928) endpoint
+point v30 (0.068680 0.100680 0.000114) endpoint
+point v31 (0.035576 0.099573 0.000910) endpoint
+point v32 (0.000185 0.094024 0.002748) endpoint
+point v33 (-0.029431 0.084012 0.005124) endpoint
+point v34 (-0.048259 0.065445 0.010537) endpoint
+point v35 (-0.057280 0.028482 0.027359) endpoint
+point v36 (-0.052019 -0.020395 0.053255) endpoint
+point v37 (-0.020494 -0.051733 0.070472) endpoint
+point v38 (0.025918 -0.049601 0.069793) endpoint
+point v39 (0.054073 -0.014725 0.052363) endpoint
+point v40 (0.059953 0.032653 0.028674) endpoint
+point v41 (0.060160 0.062059 0.013891) endpoint
+point v42 (0.062032 0.071962 0.008003) endpoint
+point v43 (0.067125 0.074367 0.004000) endpoint
+point v44 (0.072500 0.072500 0.000000) endpoint
+point v45 (0.074367 0.067126 -0.004000) endpoint
+point v46 (0.071963 0.062033 -0.008002) endpoint
+point v47 (0.062062 0.060160 -0.013889) endpoint
+point v48 (0.032661 0.059953 -0.028670) endpoint
+point v49 (-0.014716 0.054076 -0.052358) endpoint
+point v50 (-0.049597 0.025926 -0.069791) endpoint
+point v51 (-0.051735 -0.020486 -0.070473) endpoint
+point v52 (-0.020404 -0.052015 -0.053260) endpoint
+point v53 (0.028473 -0.057281 -0.027364) endpoint
+point v54 (0.065440 -0.048261 -0.010539) endpoint
+point v55 (0.084010 -0.029435 -0.005125) endpoint
+point v56 (0.094023 0.000178 -0.002748) endpoint
+point v57 (0.099572 0.035570 -0.000910) endpoint
+point v58 (0.100681 0.068675 -0.000114) endpoint
+point v59 (0.092000 0.092000 0.000000) endpoint
+
+mesh SIFmesh0
+face f0 (v30 v0 v1 v59) endface
+face f1 (v59 v1 v2 v58) endface
+face f2 (v58 v2 v3 v57) endface
+face f3 (v57 v3 v4 v56) endface
+face f4 (v56 v4 v5 v55) endface
+face f5 (v55 v5 v6 v54) endface
+face f6 (v54 v6 v7 v53) endface
+face f7 (v53 v7 v8 v52) endface
+face f8 (v52 v8 v9 v51) endface
+face f9 (v51 v9 v10 v50) endface
+face f10 (v50 v10 v11 v49) endface
+face f11 (v49 v11 v12 v48) endface
+face f12 (v48 v12 v13 v47) endface
+face f13 (v47 v13 v14 v46) endface
+face f14 (v46 v14 v15 v45) endface
+face f15 (v45 v15 v16 v44) endface
+face f16 (v44 v16 v17 v43) endface
+face f17 (v43 v17 v18 v42) endface
+face f18 (v42 v18 v19 v41) endface
+face f19 (v41 v19 v20 v40) endface
+face f20 (v40 v20 v21 v39) endface
+face f21 (v39 v21 v22 v38) endface
+face f22 (v38 v22 v23 v37) endface
+face f23 (v37 v23 v24 v36) endface
+face f24 (v36 v24 v25 v35) endface
+face f25 (v35 v25 v26 v34) endface
+face f26 (v34 v26 v27 v33) endface
+face f27 (v33 v27 v28 v32) endface
+face f28 (v32 v28 v29 v31) endface
+face f29 (v31 v29 v0 v30) endface
+endmesh
+
+instance  mesh0 SIFmesh0 scale (1 1 1)  endinstance
