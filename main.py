@@ -202,8 +202,16 @@ def show_entry_fields():
    global outputName
    global squarefaces
    # Reads the argument from the command
-   inputName = e1.get().strip('\"')
-   outputName = e2.get().strip('\"')
+
+   inputName = e1.get()
+   outputName = e2.get()
+   if inputName.startswith('"') and inputName.endswith('"'):
+       inputName = inputName[1:-1]
+
+   if outputName.startswith('"') and outputName.endswith('"'):
+       outputName = outputName[1:-1]
+   #inputName = e1.get().strip('\"')
+   #outputName = e2.get().strip('\"')
 
    # Checks if need to convert triangle faces to rectangles
    #print var1.get()
