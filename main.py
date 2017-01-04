@@ -84,7 +84,7 @@ def eval(x, outputFile, isSquare):
                 listFaces.remove(element)
                 newFaces.append(element)
 
-        print(isSquare)
+        #print(isSquare)
         if isSquare == "True":
 
             mergeFaces(listFaces, newFaces)
@@ -196,7 +196,7 @@ outputName = ""
 squarefaces = ""
 
 def show_entry_fields():
-   print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
+   #print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
 
    global inputName
    global outputName
@@ -214,6 +214,7 @@ def show_entry_fields():
        squarefaces = "False"
 
    main()
+   print("The file " + inputName + " is coverted to " + outputName)
 
 master = Tk()
 master.title("sifToNome Converter")
